@@ -58,8 +58,8 @@ function SideBarMenu() {
           {links.map((item, i) => (
             <span className="w-[90%] lg:w-[70%]" key={i}>
               <span
-                className={`opacity-${
-                  i == 0 ? 1 : 45
+                className={`${
+                  i === 0 ? "opacity-100" : "opacity-45"
                 } transition-opacity  ease-linear hover:opacity-100 text-[10vw] md:text-[6vw] lg:text-[4vw] w-fit cursor-pointer tracking-tight underline-effect`}
               >
                 {item}
