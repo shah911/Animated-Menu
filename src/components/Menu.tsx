@@ -57,7 +57,7 @@ function Menu() {
             initial="initial"
             animate="animate"
             exit="exit"
-            className="bg-orange-500 absolute z-10 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 lg:w-[97.5%] w-[95%] h-[97.5vh] rounded-xl"
+            className="bg-orange-500 absolute z-10 top-[12.5px] lg:top-1/2 left-1/2 transform -translate-x-1/2 lg:-translate-y-1/2 lg:w-[97.5%] w-[95%] h-[97.5vh] rounded-xl"
           >
             <SideBarMenu />
           </motion.div>
