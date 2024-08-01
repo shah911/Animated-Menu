@@ -75,6 +75,7 @@ function SideBarMenu() {
             <Image
               src="/pexels-atbo-66986-245208.jpg"
               alt="main"
+              priority={true}
               fill
               className="object-cover"
             />
